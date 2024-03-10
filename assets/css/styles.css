@@ -17,3 +17,21 @@ a {
 a:hover {
   color: #37a1f7;
 }
+
+#navbar {
+  padding: 1.5rem 2.5rem;
+  border-bottom: solid 2px #ddd;
+}
+
+#navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#nav-links {
+  display: flex;
+  gap: 1rem;
+}
